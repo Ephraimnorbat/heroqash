@@ -4,32 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HeroQash - Earn Smart</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
 </head>
 <body>
     <nav>
-        <div class="logo">HeroQash</div>
+        <div class="logo">
+            <img src="images/heroqashlogo4.png" alt="HeroQash Logo">
+        </div>
         <div class="nav-links">
             <a href="#home">Home</a>
             <a href="#services">Services</a>
             <a href="#testimonials">Testimonials</a>
             <a href="#faq">FAQ</a>
-            <a href="#contact">Contact</a>
-        </div>
-        <div class="menu-btn"><i class="fas fa-bars"></i></div>
+          
+        </div> 
+       
+            <button  onclick="location.href='#contact'" class="contact-btn">Contact</button>
+       
+         
     </nav>
 
     <header id="home">
         <div class="hero">
-            <img src="images/hero.jpg" alt="HeroQash Background" class="hero-bg">
             <div class="hero-content">
                 <h1>Welcome to HeroQash</h1>
                 <p>Your Gateway to Multiple Income Streams</p>
-                <a href="https://www.streamwa-ve.com/user/register.php?ref=DaWECHY" class="get-started-btn">
+                <p>HeroQash is a platform designed to help you earn through various engaging activities, including affiliate marketing, quizzes, and more. Join us to explore endless opportunities!</p>
+                <a href="https://www.streamwa-ve.com/user/register.php?ref=DaWECHY" class="btn">
                     Get Started
                 </a>
+            </div>
+            <div class="hero-img">
+                <img src="images/hero3.jpg" alt="HeroQash Background"  >
+
             </div>
         </div>
     </header>
@@ -38,34 +48,38 @@
         <h2>Our Services</h2>
         <div class="services-grid">
             <div class="service-card">
-                <i class="fas fa-handshake"></i>
+                <i class="fas fa-handshake service-icon"></i>
                 <h3>Affiliate Marketing</h3>
                 <p>Earn through our comprehensive affiliate program</p>
             </div>
             <div class="service-card">
-                <i class="fas fa-question-circle"></i>
+                <i class="fas fa-question-circle service-icon"></i>
                 <h3>Trivia Quizzes</h3>
                 <p>Test your knowledge and earn rewards</p>
             </div>
             <div class="service-card">
-                <i class="fas fa-video"></i>
+                <i class="fas fa-video service-icon"></i>
                 <h3>Video Engagement</h3>
                 <p>Earn by watching and engaging with videos</p>
             </div>
+            
+          
+        </div>
+        <div class="service-container">
             <div class="service-card">
-                <i class="fas fa-dharmachakra"></i>
-                <h3>Spin Wheel Rewards</h3>
-                <p>Daily chances to win exciting prizes</p>
-            </div>
-            <div class="service-card">
-                <i class="fas fa-chart-line"></i>
+                <i class="fas fa-chart-line service-icon"></i>
                 <h3>Basic Forex Classes</h3>
                 <p>Learn forex trading fundamentals</p>
             </div>
             <div class="service-card">
-                <i class="fas fa-trophy"></i>
+                <i class="fas fa-trophy service-icon"></i>
                 <h3>Online Tournaments</h3>
                 <p>Compete and win in various competitions</p>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-dharmachakra service-icon"></i>
+                <h3>Spin Wheel Rewards</h3>
+                <p>Daily chances to win exciting prizes</p>
             </div>
         </div>
     </section>
@@ -75,17 +89,17 @@
         <div class="swiper">
             <div class="swiper-wrapper">
                 <div class="swiper-slide testimonial-card">
-                    <img src="https://via.placeholder.com/100" alt="User">
+                    <img src="/images/womaavatar.jpg" alt="User">
                     <p>"HeroQash changed my life! I'm now earning consistently through affiliate marketing."</p>
                     <h4>John Doe</h4>
                 </div>
                 <div class="swiper-slide testimonial-card">
-                    <img src="https://via.placeholder.com/100" alt="User">
+                    <img src="images/manavatar.jpg" alt="User">
                     <p>"The trivia quizzes are both fun and rewarding. Great platform!"</p>
                     <h4>Jane Smith</h4>
                 </div>
                 <div class="swiper-slide testimonial-card">
-                    <img src="https://via.placeholder.com/100" alt="User">
+                    <img src="/images/ladyavartar.jpg" alt="User">
                     <p>"Best online earning platform I've ever used. Highly recommended!"</p>
                     <h4>Mike Johnson</h4>
                 </div>
@@ -112,7 +126,7 @@
         </div>
     </section>
 
-    <section id="contact" class="contact">
+    <section id="contact" class="contact-container">
         <h2>Contact Us</h2>
         <div class="contact-info">
             <div class="contact-item">
